@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <header>
+<title>App Clima</title>
+
+  <h4>Fecha Actual:</h4>
+  <script>
+  let date = new Date();
+  let output = String(date.getDate()).padStart(2, '0') + '/' + String(date.getMonth() + 1).padStart(2, '0') + '/' + date.getFullYear();
+  document.write("<h4>" + output + "</h4>");
+  </script>
+
+  <link rel="stylesheet" type="text/css" href="Estilo.css">
+  <script src="Cliente.js"></script>
+</header>
+</head>
+
+<body>
+    <br>
+
+    <section class="Consult">
+    <h4>DATOS DEL CLIMA</h4>
+    <hr>
+
+    <h3>Ingresa la ciudad:</h3>
+    <input class="Caja_texto" type="text" id="Ciudad">
+    <button onclick="ConsultarClima()">Consultar</button>
+    
+    <div id="Contenedor">
+
+    <div id="Caja1">
+    <h1>TEMPERATURA:</h1>
+    <h2 id="Resultado"></h2>
+    </div>
+
+    <div id="Caja2">
+    <h1>PRESIÓN:</h1>
+    <h2 id="Resultado1"></h2>
+    </div>
+
+    <div id="Caja3">
+    <h1>HUMEDAD:</h1>
+    <h2 id="Resultado2"></h2>
+    </div>
+
+    <div id="Caja4">
+    <h1>TIEMPO ATMOSFÉRICO:</h1>
+    <img id="icono-animado" src="./Animated/animated/cloudy-day-1.svg" alt="" height="128" width="128">
+    </div>
+
+    </div>
+    
+  </section>
+   
+  <footer>
+    <h1>CREADO POR JONATHAN CEBALLOS</h1>
+    <a href="https://proyectowebhtml.netlify.app/" target="_blank">ProyectoPagWeb</a>
+    <br>
+    <a href="https://calculadora-js-j1205.netlify.app" target="_blank">Calculadora.js</a>
+  </footer>
+</body>
+</html>

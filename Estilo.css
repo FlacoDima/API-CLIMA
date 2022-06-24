@@ -1,0 +1,176 @@
+body {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: #3494E6;
+  background: -webkit-linear-gradient(to right, #EC6EAD, #3494E6);
+  background: linear-gradient(to right, #EC6EAD, #3494E6);
+}
+
+.Consult {
+  background-image: url(./clima-tipos.jpg);
+  width: 2000px;
+  height: 900px;
+  margin: auto;
+  margin-top: 25px;
+  box-shadow: 7px 13px 37px solid white;
+  padding: 10px 20px;
+  border-top: 150px;
+  color: black;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  text-align: center;
+  height: 30px;
+  font-size: 35px;
+  color: black;
+}
+
+h2 {
+  margin: auto;
+  text-align: center;
+  height: 400px;
+  font-size: 45px;
+  color: black;
+  margin-top: 50px;
+  width: 250px;
+  padding: 30%;
+  padding-top: 40%;
+}
+
+#Resultado1 {
+  width: 500px;
+  height: 480px;
+  margin-left: -150px; 
+}
+
+h3 {
+  color: black;
+  font-size: 45px;
+  text-decoration: underline;
+}
+
+h4 {
+  font-size: 50px;
+  height: 10px;
+  margin-top: 10px;
+}
+
+header {
+  margin-top: auto;
+  text-align: left;
+  margin-bottom: -40px;
+  font-size: 50px;
+  color: white;
+  padding: 0px 300px;
+  height: 150px;
+}
+
+button {
+  margin: auto;
+  text-align: center;
+  height: 52px;
+  margin-bottom: 15px;
+  font-size: 41px;
+  width: 200px;
+  border-radius: 15px;
+}
+
+.Caja_texto {
+  width: 300px;
+  margin: auto;
+  text-align: center;
+  height: 45px;
+  margin-bottom: 15px;
+  font-size: 45px;
+  padding: 2px;
+  border-radius: 15px;
+}
+
+div {
+  column-count: 4;
+  margin-top: 20px;
+  margin-left: 60px;
+  text-align: center;
+  width: 1800px;
+  font-size: 50%;
+}
+
+hr {
+  border-width: 1px;
+  border-color: black;
+  margin: auto;
+}
+
+footer {
+  column-count: 3;
+  margin-top: 20px;
+  margin-left: 3s0px;
+  text-align: center;
+  width: 60%;
+  font-size: 35px;
+  background-color: chartreuse;
+  box-shadow: 0px 0px 20px;
+  border-radius: 50px;
+  height: 50px;
+  text-decoration: underline;
+  text-transform: uppercase;
+  padding: 15px 7px 3px;
+  padding-left: 300px;
+  text-indent: -300px;
+}
+
+#Contenedor {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 150px;
+}
+
+#Caja1, #Caja2, #Caja3, #Caja4 {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 20%;
+  width: 300px;
+  height: 250px;
+}
+
+#Caja1 {
+  background-color: darkslateblue;
+  color:azure;
+  padding: 15px;
+  padding-left: 30px;
+  margin-left: -40px;
+}
+#Caja2 {
+  background-color: #2ab2ea;
+  color:azure;
+  padding: 15px;
+  text-indent: 70px;
+}
+#Caja3 {
+  background-color: #2ab2ea;
+  color:azure;
+  padding: 15px;
+  text-indent: 50px;
+}
+
+#Caja4 {
+  background-color: darkslateblue;
+  color:azure;
+  padding: 15px;
+  text-indent: 55px;
+}
+
+img {
+  border-radius: 15px;
+  padding: 300px;
+  margin: auto;
+  padding-left: 10px;
+  height: 150px;
+}
